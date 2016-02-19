@@ -1,0 +1,11 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "3c8c91239b2056e40dbc3251adbd34ab"
+build_time: [508411215, 486450000]
+inputs:
+  "/Users/edihsu/Documents/Udemy Online Course/RPG-oop/RPG-oop/DevilWizard.swift": [508408324, 0]
+  "/Users/edihsu/Documents/Udemy Online Course/RPG-oop/RPG-oop/Kimara.swift": [508241480, 0]
+  "/Users/edihsu/Documents/Udemy Online Course/RPG-oop/RPG-oop/ViewController.swift": [508411215, 0]
+  "/Users/edihsu/Documents/Udemy Online Course/RPG-oop/RPG-oop/Enemy.swift": [508152371, 0]
+  "/Users/edihsu/Documents/Udemy Online Course/RPG-oop/RPG-oop/Character.swift": [508232214, 0]
+  "/Users/edihsu/Documents/Udemy Online Course/RPG-oop/RPG-oop/AppDelegate.swift": [508084795, 0]
+  "/Users/edihsu/Documents/Udemy Online Course/RPG-oop/RPG-oop/Player.swift": [508409671, 0]

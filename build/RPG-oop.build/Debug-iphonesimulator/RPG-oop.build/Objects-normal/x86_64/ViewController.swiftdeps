@@ -1,0 +1,650 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C7RPG_oop14ViewController"
+provides-member:
+- ["C7RPG_oop14ViewController", ""]
+provides-dynamic-lookup:
+- "attackTapped"
+- "viewDidLoad"
+- "onChestTapped"
+- "printLbl"
+- "enemyHpLbl"
+- "generateRandomEnemy"
+- "chestBtn"
+- "chestMessage"
+- "playerHpLbl"
+- "enemyImg"
+depends-top-level:
+- "UIViewController"
+- !private "NSTimer"
+- !private "!"
+- !private "Int"
+- !private "DevilWizard"
+- "UIButton"
+- "ViewController"
+- !private "BooleanLiteralType"
+- "Enemy"
+- "AnyObject"
+- !private "=="
+- "UIImageView"
+- "UILabel"
+- "String"
+- "Player"
+- !private "StringLiteralType"
+- !private "Kimara"
+- !private "arc4random_uniform"
+depends-member:
+- !private ["PSs9AnyObject", "DevilWizard"]
+- !private ["PSs9AnyObject", "Int"]
+- !private ["PSs9AnyObject", "Kimara"]
+- !private ["PSs9AnyObject", "NSTimer"]
+- !private ["PSs9AnyObject", "Player"]
+- !private ["PSs9AnyObject", "addItemToInventory"]
+- !private ["PSs9AnyObject", "arc4random_uniform"]
+- !private ["PSs9AnyObject", "attackPwr"]
+- ["PSs9AnyObject", "attackTapped"]
+- !private ["PSs9AnyObject", "attemptAttack"]
+- ["PSs9AnyObject", "chestBtn"]
+- ["PSs9AnyObject", "chestMessage"]
+- !private ["PSs9AnyObject", "dropLoot"]
+- ["PSs9AnyObject", "enemy"]
+- ["PSs9AnyObject", "enemyHpLbl"]
+- ["PSs9AnyObject", "enemyImg"]
+- ["PSs9AnyObject", "generateRandomEnemy"]
+- !private ["PSs9AnyObject", "hidden"]
+- !private ["PSs9AnyObject", "hp"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "isAlive"]
+- !private ["PSs9AnyObject", "name"]
+- ["PSs9AnyObject", "onChestTapped"]
+- ["PSs9AnyObject", "player"]
+- ["PSs9AnyObject", "playerHpLbl"]
+- ["PSs9AnyObject", "printLbl"]
+- !private ["PSs9AnyObject", "scheduledTimerWithTimeInterval"]
+- !private ["PSs9AnyObject", "text"]
+- !private ["PSs9AnyObject", "type"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs22BidirectionalIndexType", "init"]
+- !private ["PSs21BitwiseOperationsType", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "DevilWizard"]
+- !private ["PSs11CVarArgType", "Int"]
+- !private ["PSs11CVarArgType", "Kimara"]
+- !private ["PSs11CVarArgType", "NSTimer"]
+- !private ["PSs11CVarArgType", "Player"]
+- !private ["PSs11CVarArgType", "arc4random_uniform"]
+- ["PSs11CVarArgType", "attackTapped"]
+- ["PSs11CVarArgType", "chestBtn"]
+- ["PSs11CVarArgType", "chestMessage"]
+- ["PSs11CVarArgType", "enemy"]
+- ["PSs11CVarArgType", "enemyHpLbl"]
+- ["PSs11CVarArgType", "enemyImg"]
+- ["PSs11CVarArgType", "generateRandomEnemy"]
+- !private ["PSs11CVarArgType", "hidden"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "onChestTapped"]
+- ["PSs11CVarArgType", "player"]
+- ["PSs11CVarArgType", "playerHpLbl"]
+- ["PSs11CVarArgType", "printLbl"]
+- !private ["PSs11CVarArgType", "scheduledTimerWithTimeInterval"]
+- !private ["PSs11CVarArgType", "text"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- !private ["C7RPG_oop9Character", "addItemToInventory"]
+- !private ["C7RPG_oop9Character", "attackPwr"]
+- !private ["C7RPG_oop9Character", "attemptAttack"]
+- !private ["C7RPG_oop9Character", "dropLoot"]
+- !private ["C7RPG_oop9Character", "hp"]
+- !private ["C7RPG_oop9Character", "init"]
+- !private ["C7RPG_oop9Character", "isAlive"]
+- !private ["C7RPG_oop9Character", "name"]
+- !private ["C7RPG_oop9Character", "type"]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs10Comparable", "init"]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "DevilWizard"]
+- !private ["PSs23CustomStringConvertible", "Int"]
+- !private ["PSs23CustomStringConvertible", "Kimara"]
+- !private ["PSs23CustomStringConvertible", "NSTimer"]
+- !private ["PSs23CustomStringConvertible", "Player"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "arc4random_uniform"]
+- ["PSs23CustomStringConvertible", "attackTapped"]
+- ["PSs23CustomStringConvertible", "chestBtn"]
+- ["PSs23CustomStringConvertible", "chestMessage"]
+- ["PSs23CustomStringConvertible", "enemy"]
+- ["PSs23CustomStringConvertible", "enemyHpLbl"]
+- ["PSs23CustomStringConvertible", "enemyImg"]
+- ["PSs23CustomStringConvertible", "generateRandomEnemy"]
+- !private ["PSs23CustomStringConvertible", "hidden"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "onChestTapped"]
+- ["PSs23CustomStringConvertible", "player"]
+- ["PSs23CustomStringConvertible", "playerHpLbl"]
+- ["PSs23CustomStringConvertible", "printLbl"]
+- !private ["PSs23CustomStringConvertible", "scheduledTimerWithTimeInterval"]
+- !private ["PSs23CustomStringConvertible", "text"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["C7RPG_oop11DevilWizard", "init"]
+- !private ["Sd", "deinit"]
+- !private ["C7RPG_oop5Enemy", "attemptAttack"]
+- !private ["C7RPG_oop5Enemy", "dropLoot"]
+- !private ["C7RPG_oop5Enemy", "hp"]
+- !private ["C7RPG_oop5Enemy", "init"]
+- !private ["C7RPG_oop5Enemy", "isAlive"]
+- !private ["C7RPG_oop5Enemy", "type"]
+- !private ["PSs9Equatable", "DevilWizard"]
+- !private ["PSs9Equatable", "Int"]
+- !private ["PSs9Equatable", "Kimara"]
+- !private ["PSs9Equatable", "NSTimer"]
+- !private ["PSs9Equatable", "Player"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "arc4random_uniform"]
+- ["PSs9Equatable", "attackTapped"]
+- ["PSs9Equatable", "chestBtn"]
+- ["PSs9Equatable", "chestMessage"]
+- ["PSs9Equatable", "enemy"]
+- ["PSs9Equatable", "enemyHpLbl"]
+- ["PSs9Equatable", "enemyImg"]
+- ["PSs9Equatable", "generateRandomEnemy"]
+- !private ["PSs9Equatable", "hidden"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "onChestTapped"]
+- ["PSs9Equatable", "player"]
+- ["PSs9Equatable", "playerHpLbl"]
+- ["PSs9Equatable", "printLbl"]
+- !private ["PSs9Equatable", "scheduledTimerWithTimeInterval"]
+- !private ["PSs9Equatable", "text"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["PSs16ForwardIndexType", "init"]
+- !private ["PSs8Hashable", "DevilWizard"]
+- !private ["PSs8Hashable", "Int"]
+- !private ["PSs8Hashable", "Kimara"]
+- !private ["PSs8Hashable", "NSTimer"]
+- !private ["PSs8Hashable", "Player"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "arc4random_uniform"]
+- ["PSs8Hashable", "attackTapped"]
+- ["PSs8Hashable", "chestBtn"]
+- ["PSs8Hashable", "chestMessage"]
+- ["PSs8Hashable", "enemy"]
+- ["PSs8Hashable", "enemyHpLbl"]
+- ["PSs8Hashable", "enemyImg"]
+- ["PSs8Hashable", "generateRandomEnemy"]
+- !private ["PSs8Hashable", "hidden"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "onChestTapped"]
+- ["PSs8Hashable", "player"]
+- ["PSs8Hashable", "playerHpLbl"]
+- ["PSs8Hashable", "printLbl"]
+- !private ["PSs8Hashable", "scheduledTimerWithTimeInterval"]
+- !private ["PSs8Hashable", "text"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- !private ["Si", "deinit"]
+- !private ["Si", "init"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs21IntegerArithmeticType", "init"]
+- !private ["PSs25IntegerLiteralConvertible", "init"]
+- !private ["PSs11IntegerType", "init"]
+- !private ["C7RPG_oop6Kimara", "init"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "DevilWizard"]
+- !private ["PSo8NSCoding", "Int"]
+- !private ["PSo8NSCoding", "Kimara"]
+- !private ["PSo8NSCoding", "NSTimer"]
+- !private ["PSo8NSCoding", "Player"]
+- !private ["PSo8NSCoding", "arc4random_uniform"]
+- ["PSo8NSCoding", "attackTapped"]
+- ["PSo8NSCoding", "chestBtn"]
+- ["PSo8NSCoding", "chestMessage"]
+- ["PSo8NSCoding", "enemy"]
+- ["PSo8NSCoding", "enemyHpLbl"]
+- ["PSo8NSCoding", "enemyImg"]
+- ["PSo8NSCoding", "generateRandomEnemy"]
+- !private ["PSo8NSCoding", "hidden"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "onChestTapped"]
+- ["PSo8NSCoding", "player"]
+- ["PSo8NSCoding", "playerHpLbl"]
+- ["PSo8NSCoding", "printLbl"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "DevilWizard"]
+- !private ["PSo26NSExtensionRequestHandling", "Int"]
+- !private ["PSo26NSExtensionRequestHandling", "Kimara"]
+- !private ["PSo26NSExtensionRequestHandling", "NSTimer"]
+- !private ["PSo26NSExtensionRequestHandling", "Player"]
+- !private ["PSo26NSExtensionRequestHandling", "arc4random_uniform"]
+- ["PSo26NSExtensionRequestHandling", "attackTapped"]
+- ["PSo26NSExtensionRequestHandling", "chestBtn"]
+- ["PSo26NSExtensionRequestHandling", "chestMessage"]
+- ["PSo26NSExtensionRequestHandling", "enemy"]
+- ["PSo26NSExtensionRequestHandling", "enemyHpLbl"]
+- ["PSo26NSExtensionRequestHandling", "enemyImg"]
+- ["PSo26NSExtensionRequestHandling", "generateRandomEnemy"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "onChestTapped"]
+- ["PSo26NSExtensionRequestHandling", "player"]
+- ["PSo26NSExtensionRequestHandling", "playerHpLbl"]
+- ["PSo26NSExtensionRequestHandling", "printLbl"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "DevilWizard"]
+- ["CSo8NSObject", "Enemy"]
+- !private ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "Kimara"]
+- !private ["CSo8NSObject", "NSTimer"]
+- ["CSo8NSObject", "Player"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- !private ["CSo8NSObject", "arc4random_uniform"]
+- ["CSo8NSObject", "attackTapped"]
+- ["CSo8NSObject", "chestBtn"]
+- ["CSo8NSObject", "chestMessage"]
+- ["CSo8NSObject", "enemy"]
+- ["CSo8NSObject", "enemyHpLbl"]
+- ["CSo8NSObject", "enemyImg"]
+- ["CSo8NSObject", "generateRandomEnemy"]
+- !private ["CSo8NSObject", "hidden"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "onChestTapped"]
+- ["CSo8NSObject", "player"]
+- ["CSo8NSObject", "playerHpLbl"]
+- ["CSo8NSObject", "printLbl"]
+- !private ["CSo8NSObject", "scheduledTimerWithTimeInterval"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "DevilWizard"]
+- !private ["PSo16NSObjectProtocol", "Int"]
+- !private ["PSo16NSObjectProtocol", "Kimara"]
+- !private ["PSo16NSObjectProtocol", "NSTimer"]
+- !private ["PSo16NSObjectProtocol", "Player"]
+- !private ["PSo16NSObjectProtocol", "arc4random_uniform"]
+- ["PSo16NSObjectProtocol", "attackTapped"]
+- ["PSo16NSObjectProtocol", "chestBtn"]
+- ["PSo16NSObjectProtocol", "chestMessage"]
+- ["PSo16NSObjectProtocol", "enemy"]
+- ["PSo16NSObjectProtocol", "enemyHpLbl"]
+- ["PSo16NSObjectProtocol", "enemyImg"]
+- ["PSo16NSObjectProtocol", "generateRandomEnemy"]
+- !private ["PSo16NSObjectProtocol", "hidden"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "onChestTapped"]
+- ["PSo16NSObjectProtocol", "player"]
+- ["PSo16NSObjectProtocol", "playerHpLbl"]
+- ["PSo16NSObjectProtocol", "printLbl"]
+- !private ["PSo16NSObjectProtocol", "scheduledTimerWithTimeInterval"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo7NSTimer", "scheduledTimerWithTimeInterval"]
+- ["PSs21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["C7RPG_oop6Player", "addItemToInventory"]
+- !private ["C7RPG_oop6Player", "attackPwr"]
+- !private ["C7RPG_oop6Player", "hp"]
+- !private ["C7RPG_oop6Player", "init"]
+- !private ["C7RPG_oop6Player", "name"]
+- !private ["PSs21RandomAccessIndexType", "init"]
+- !private ["V10ObjectiveC8Selector", "deinit"]
+- !private ["PSs17SignedIntegerType", "init"]
+- !private ["PSs16SignedNumberType", "init"]
+- !private ["PSs10Streamable", "init"]
+- !private ["PSs10Strideable", "init"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "hidden"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "hidden"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "DevilWizard"]
+- !private ["PSo21UIAppearanceContainer", "Int"]
+- !private ["PSo21UIAppearanceContainer", "Kimara"]
+- !private ["PSo21UIAppearanceContainer", "NSTimer"]
+- !private ["PSo21UIAppearanceContainer", "Player"]
+- !private ["PSo21UIAppearanceContainer", "arc4random_uniform"]
+- ["PSo21UIAppearanceContainer", "attackTapped"]
+- ["PSo21UIAppearanceContainer", "chestBtn"]
+- ["PSo21UIAppearanceContainer", "chestMessage"]
+- ["PSo21UIAppearanceContainer", "enemy"]
+- ["PSo21UIAppearanceContainer", "enemyHpLbl"]
+- ["PSo21UIAppearanceContainer", "enemyImg"]
+- ["PSo21UIAppearanceContainer", "generateRandomEnemy"]
+- !private ["PSo21UIAppearanceContainer", "hidden"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "onChestTapped"]
+- ["PSo21UIAppearanceContainer", "player"]
+- ["PSo21UIAppearanceContainer", "playerHpLbl"]
+- ["PSo21UIAppearanceContainer", "printLbl"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo8UIButton", "hidden"]
+- !private ["PSo18UIContentContainer", "DevilWizard"]
+- !private ["PSo18UIContentContainer", "Int"]
+- !private ["PSo18UIContentContainer", "Kimara"]
+- !private ["PSo18UIContentContainer", "NSTimer"]
+- !private ["PSo18UIContentContainer", "Player"]
+- !private ["PSo18UIContentContainer", "arc4random_uniform"]
+- ["PSo18UIContentContainer", "attackTapped"]
+- ["PSo18UIContentContainer", "chestBtn"]
+- ["PSo18UIContentContainer", "chestMessage"]
+- ["PSo18UIContentContainer", "enemy"]
+- ["PSo18UIContentContainer", "enemyHpLbl"]
+- ["PSo18UIContentContainer", "enemyImg"]
+- ["PSo18UIContentContainer", "generateRandomEnemy"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "onChestTapped"]
+- ["PSo18UIContentContainer", "player"]
+- ["PSo18UIContentContainer", "playerHpLbl"]
+- ["PSo18UIContentContainer", "printLbl"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "hidden"]
+- !private ["PSo17UICoordinateSpace", "hidden"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "hidden"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "DevilWizard"]
+- !private ["PSo18UIFocusEnvironment", "Int"]
+- !private ["PSo18UIFocusEnvironment", "Kimara"]
+- !private ["PSo18UIFocusEnvironment", "NSTimer"]
+- !private ["PSo18UIFocusEnvironment", "Player"]
+- !private ["PSo18UIFocusEnvironment", "arc4random_uniform"]
+- ["PSo18UIFocusEnvironment", "attackTapped"]
+- ["PSo18UIFocusEnvironment", "chestBtn"]
+- ["PSo18UIFocusEnvironment", "chestMessage"]
+- ["PSo18UIFocusEnvironment", "enemy"]
+- ["PSo18UIFocusEnvironment", "enemyHpLbl"]
+- ["PSo18UIFocusEnvironment", "enemyImg"]
+- ["PSo18UIFocusEnvironment", "generateRandomEnemy"]
+- !private ["PSo18UIFocusEnvironment", "hidden"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "onChestTapped"]
+- ["PSo18UIFocusEnvironment", "player"]
+- ["PSo18UIFocusEnvironment", "playerHpLbl"]
+- ["PSo18UIFocusEnvironment", "printLbl"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo11UIImageView", "hidden"]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "AnyObject"]
+- !private ["CSo11UIResponder", "DevilWizard"]
+- ["CSo11UIResponder", "Enemy"]
+- !private ["CSo11UIResponder", "Int"]
+- !private ["CSo11UIResponder", "Kimara"]
+- !private ["CSo11UIResponder", "NSTimer"]
+- ["CSo11UIResponder", "Player"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- !private ["CSo11UIResponder", "arc4random_uniform"]
+- ["CSo11UIResponder", "attackTapped"]
+- ["CSo11UIResponder", "chestBtn"]
+- ["CSo11UIResponder", "chestMessage"]
+- ["CSo11UIResponder", "enemy"]
+- ["CSo11UIResponder", "enemyHpLbl"]
+- ["CSo11UIResponder", "enemyImg"]
+- ["CSo11UIResponder", "generateRandomEnemy"]
+- !private ["CSo11UIResponder", "hidden"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "onChestTapped"]
+- ["CSo11UIResponder", "player"]
+- ["CSo11UIResponder", "playerHpLbl"]
+- ["CSo11UIResponder", "printLbl"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "DevilWizard"]
+- !private ["PSo16UIStateRestoring", "Int"]
+- !private ["PSo16UIStateRestoring", "Kimara"]
+- !private ["PSo16UIStateRestoring", "NSTimer"]
+- !private ["PSo16UIStateRestoring", "Player"]
+- !private ["PSo16UIStateRestoring", "arc4random_uniform"]
+- ["PSo16UIStateRestoring", "attackTapped"]
+- ["PSo16UIStateRestoring", "chestBtn"]
+- ["PSo16UIStateRestoring", "chestMessage"]
+- ["PSo16UIStateRestoring", "enemy"]
+- ["PSo16UIStateRestoring", "enemyHpLbl"]
+- ["PSo16UIStateRestoring", "enemyImg"]
+- ["PSo16UIStateRestoring", "generateRandomEnemy"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "onChestTapped"]
+- ["PSo16UIStateRestoring", "player"]
+- ["PSo16UIStateRestoring", "playerHpLbl"]
+- ["PSo16UIStateRestoring", "printLbl"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "DevilWizard"]
+- !private ["PSo18UITraitEnvironment", "Int"]
+- !private ["PSo18UITraitEnvironment", "Kimara"]
+- !private ["PSo18UITraitEnvironment", "NSTimer"]
+- !private ["PSo18UITraitEnvironment", "Player"]
+- !private ["PSo18UITraitEnvironment", "arc4random_uniform"]
+- ["PSo18UITraitEnvironment", "attackTapped"]
+- ["PSo18UITraitEnvironment", "chestBtn"]
+- ["PSo18UITraitEnvironment", "chestMessage"]
+- ["PSo18UITraitEnvironment", "enemy"]
+- ["PSo18UITraitEnvironment", "enemyHpLbl"]
+- ["PSo18UITraitEnvironment", "enemyImg"]
+- ["PSo18UITraitEnvironment", "generateRandomEnemy"]
+- !private ["PSo18UITraitEnvironment", "hidden"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "onChestTapped"]
+- ["PSo18UITraitEnvironment", "player"]
+- ["PSo18UITraitEnvironment", "playerHpLbl"]
+- ["PSo18UITraitEnvironment", "printLbl"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "hidden"]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
+- !private ["CSo16UIViewController", "DevilWizard"]
+- ["CSo16UIViewController", "Enemy"]
+- !private ["CSo16UIViewController", "Int"]
+- !private ["CSo16UIViewController", "Kimara"]
+- !private ["CSo16UIViewController", "NSTimer"]
+- ["CSo16UIViewController", "Player"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UIButton"]
+- ["CSo16UIViewController", "UIImageView"]
+- ["CSo16UIViewController", "UILabel"]
+- !private ["CSo16UIViewController", "arc4random_uniform"]
+- ["CSo16UIViewController", "attackTapped"]
+- ["CSo16UIViewController", "chestBtn"]
+- ["CSo16UIViewController", "chestMessage"]
+- ["CSo16UIViewController", "enemy"]
+- ["CSo16UIViewController", "enemyHpLbl"]
+- ["CSo16UIViewController", "enemyImg"]
+- ["CSo16UIViewController", "generateRandomEnemy"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "onChestTapped"]
+- ["CSo16UIViewController", "player"]
+- ["CSo16UIViewController", "playerHpLbl"]
+- ["CSo16UIViewController", "printLbl"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- ["C7RPG_oop14ViewController", "AnyObject"]
+- !private ["C7RPG_oop14ViewController", "DevilWizard"]
+- ["C7RPG_oop14ViewController", "Enemy"]
+- !private ["C7RPG_oop14ViewController", "Int"]
+- !private ["C7RPG_oop14ViewController", "Kimara"]
+- !private ["C7RPG_oop14ViewController", "NSTimer"]
+- ["C7RPG_oop14ViewController", "Player"]
+- ["C7RPG_oop14ViewController", "String"]
+- ["C7RPG_oop14ViewController", "UIButton"]
+- ["C7RPG_oop14ViewController", "UIImageView"]
+- ["C7RPG_oop14ViewController", "UILabel"]
+- !private ["C7RPG_oop14ViewController", "arc4random_uniform"]
+- ["C7RPG_oop14ViewController", "attackTapped"]
+- ["C7RPG_oop14ViewController", "chestBtn"]
+- ["C7RPG_oop14ViewController", "chestMessage"]
+- ["C7RPG_oop14ViewController", "deinit"]
+- ["C7RPG_oop14ViewController", "enemy"]
+- ["C7RPG_oop14ViewController", "enemyHpLbl"]
+- ["C7RPG_oop14ViewController", "enemyImg"]
+- ["C7RPG_oop14ViewController", "generateRandomEnemy"]
+- ["C7RPG_oop14ViewController", "init"]
+- ["C7RPG_oop14ViewController", "onChestTapped"]
+- ["C7RPG_oop14ViewController", "player"]
+- ["C7RPG_oop14ViewController", "playerHpLbl"]
+- ["C7RPG_oop14ViewController", "printLbl"]
+- ["C7RPG_oop14ViewController", "viewDidLoad"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs14_Incrementable", "init"]
+- !private ["PSs22_IntegerArithmeticType", "init"]
+- !private ["PSs12_IntegerType", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs22_RandomAccessAmbiguity", "init"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "hidden"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "text"]
+- !private ["PSs18_SignedIntegerType", "init"]
+- !private ["PSs11_Strideable", "init"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "C7RPG_oop9Character"
+- !private "VSs9Character"
+- !private "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "C7RPG_oop11DevilWizard"
+- !private "Sd"
+- !private "C7RPG_oop5Enemy"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "PSs16ForwardIndexType"
+- "PSs8Hashable"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "C7RPG_oop6Kimara"
+- !private "PSs14MirrorPathType"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo7NSTimer"
+- "PSs21NilLiteralConvertible"
+- "Sq"
+- !private "PSs16OutputStreamType"
+- !private "C7RPG_oop6Player"
+- !private "PSs21RandomAccessIndexType"
+- !private "V10ObjectiveC8Selector"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Streamable"
+- !private "PSs10Strideable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo8UIButton"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo11UIImageView"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- "C7RPG_oop14ViewController"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "700d9e3b1f67c540594408dd54313484"
